@@ -1,0 +1,11 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+}

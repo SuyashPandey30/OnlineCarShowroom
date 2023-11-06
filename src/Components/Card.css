@@ -1,0 +1,62 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .car-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    object-fit:contain;
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .color-circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    z-index: 100;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+  }
+  
+  .circle.active {
+    border: 4px solid black; 
+  }
+
+  .car-name{
+    margin: 15px;
+  }
+  
+  .car-info {
+    margin: 16px 0;
+    opacity: 0.9;
+  }
+  
+  .car-price {
+    font-weight: bold;
+  }
+  .add_to_cart{
+    background: rgb(42, 71, 97);
+  }
+  

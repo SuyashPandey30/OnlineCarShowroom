@@ -1,0 +1,12 @@
+.sidenavcontain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidenavtext{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 10px;
+}
